@@ -66,3 +66,14 @@ body{
     border-radius: 50%;
     transform: rotate(42deg);
 }
+.plate {
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    border-radius: 50%;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background:linear-gradient(to right, #f9f9f9, #e7e7e7);
+    box-shadow: 0 35px 35px rgba(0, 0, 0, 0.2);
+}
